@@ -3,3 +3,54 @@ body {
   font-size: 62.5%;
   background-color: #f7ccb0;
 }
+
+.wrapper {
+  padding: 1rem;
+  background-color: white;
+  background-repeat: repeat;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul {
+  width: 100%;
+  padding: 1rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul li:nth-child(1) {
+  font-weight: 700;
+}
+#desc {
+  display: none;
+}
+
+@media screen and (min-width: 426px) {
+  .navbar {
+    flex-direction: row;
+  }
+  .navbar ul {
+    padding: 0 0 0 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .main {
+    display: flex;
+    gap: 1rem;
+  }
+  .main:nth-child(1) {
+    flex-basis: 60%;
+  }
+  .main:nth-child(2) {
+    flex-basis: 40%;
+  }
+  #desc {
+    display: block;
+  }
+}
