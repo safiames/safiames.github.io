@@ -427,3 +427,9 @@ nav .fas {
     flex-basis: 100%;
   }
 }
+
+#msg {
+  color: #61b752;
+  margin: -40px;
+  display: block;
+}
