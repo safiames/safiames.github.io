@@ -348,3 +348,10 @@ form .btn2 {
   margin-top: 20px;
   cursor: pointer;
 }
+
+/*------ css for small screens ------*/
+@media only screen and (max-width: 600px) {
+  #header {
+    background-image: url(./images/phone-background.png);
+  }
+}
