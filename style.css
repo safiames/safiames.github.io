@@ -10,14 +10,14 @@ html {
 }
 
 body {
-  background: #000000;
+  background: #34d1bf;
   color: #fff;
 }
 
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(./images/line-design-bg.png);
+  background-image: url(./images/green-bg.png);
   background-size: cover;
   background-position: center;
 }
@@ -169,7 +169,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div {
-  background: #262626;
+  background: #34d1bf;
   padding: 40px;
   font-size: 13px;
   font-weight: 300;
@@ -360,7 +360,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(./images/mobile-line-bg.png);
+    background-image: url(./images/mobile-bg.png);
   }
 
   .header-text {
