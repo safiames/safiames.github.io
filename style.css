@@ -10,14 +10,14 @@ html {
 }
 
 body {
-  background: #080808;
+  background: #000000;
   color: #fff;
 }
 
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(./images/retro-design-2.png);
+  background-image: url(./images/line-design-bg.png);
   background-size: cover;
   background-position: center;
 }
@@ -360,7 +360,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(./images/mobile-retro.png);
+    background-image: url(./images/mobile-line-bg.png);
   }
 
   .header-text {
