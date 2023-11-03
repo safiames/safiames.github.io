@@ -105,9 +105,11 @@ nav ul li a:hover::after {
 }
 
 .sub-title {
+  font-family: "Codystar", sans-serif;
+
   font-size: 60px;
   font-weight: 600;
-  color: #3e3d4a;
+  color: #ff85a1;
 }
 
 .tab-titles {
