@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
   margin: 0;
   position: relative;
+  overflow: hidden;
 }
 
 .christmas-lights {
@@ -25,7 +26,6 @@ body {
 .christmas-lights .chord {
   width: var(--christmas-lights-size);
   height: 100%;
-  /* overflow: hidden; */
   position: relative;
 }
 
