@@ -1,5 +1,6 @@
 body {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
   background-color: #2b2d42;
@@ -229,4 +230,13 @@ body {
   100% {
     opacity: 0.1;
   }
+}
+
+.hawkins-sign {
+  text-align: center;
+  padding-block-start: 5em;
+}
+.hawkins-sign img {
+  max-width: 50%;
+  height: auto;
 }
