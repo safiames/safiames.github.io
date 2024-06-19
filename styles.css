@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: peachpuff;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+#one{
+    background-color:orchid;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#two{
+    background-color: orchid;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#three{
+    background-color: orchid;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
