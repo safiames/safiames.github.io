@@ -21,6 +21,7 @@ div{
     border-width: 3px;
     border-color: black;
     border-style: solid;
+    padding: 20px;
 }
 
 #two{
@@ -28,6 +29,7 @@ div{
     border-width: 3px;
     border-color: black;
     border-style: solid;
+    padding: 20px;
 }
 
 #three{
@@ -35,4 +37,5 @@ div{
     border-width: 3px;
     border-color: black;
     border-style: solid;
+    padding: 20px;
 }
