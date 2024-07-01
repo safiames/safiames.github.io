@@ -35,6 +35,10 @@ ul {
     justify-content: space-evenly;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+  }
 
 #one{
     background-color:orchid;
@@ -80,3 +84,4 @@ ul {
     h1 {
         font-size: 3em;
     }
+}
